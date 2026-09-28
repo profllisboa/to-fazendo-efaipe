@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitos e Verdades | Surrealismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Surrealismo</h1>
+            <p class="subtitle">Desmistificando a arte do inconsciente</p>
+        </header>
+
+        <!-- Seção de Conteúdos -->
+        <section class="conteudos">
+            
+            <!-- Conteúdo 1 -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="https://static.todamateria.com.br/upload/ap/er/a-persistencia-da-memoria-og.jpg" alt="Relógio derretendo abstrato">
+                </div>
+                <div class="card-info">
+                    <h2>Mito 1: "O surrealismo é apenas loucura e falta de lógica."</h2>
+                    <p>Muitos acreditam que as obras eram criadas ao acaso, sem qualquer técnica, método ou propósito intelectual por trás das pinturas e manifestos.</p>
+                    <button class="btn-saber-mais" data-modal="modal1">Saiba Mais</button>
+                </div>
+            </article>
+
+            <!-- Conteúdo 2 -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="https://recantodopoeta.com/storage/2019/05/salvador-dali-cke.jpg" alt="Formas psicodélicas e abstratas">
+                </div>
+                <div class="card-info">
+                    <h2>Mito 2: "Salvador Dalí foi o único líder e criador do movimento."</h2>
+                    <p>Por ser a figura mais excêntrica e comercial do movimento, a cultura pop costuma reduzir todo o surrealismo à imagem e semelhança de Dalí.</p>
+                    <button class="btn-saber-mais" data-modal="modal2">Saiba Mais</button>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- ESTRUTURA DOS MODAIS (POP-UPS) -->
+    
+    <!-- Modal 1 -->
+    <div class="modal-overlay" id="modal1">
+        <div class="modal-box">
+            <span class="btn-fechar">&times;</span>
+            <h3>A Verdade sobre a Lógica</h3>
+            <p><strong>Verdade:</strong> O surrealismo tinha um método rigoroso baseado na <strong>Psicanálise de Sigmund Freud</strong>. Os artistas utilizavam o <em>automatismo psíquico puro</em> para acessar o inconsciente, mas exigiam extrema técnica e controle estético para traduzir esses sonhos e símbolos em telas ou poesias estruturadas.</p>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal-overlay" id="modal2">
+        <div class="modal-box">
+            <span class="btn-fechar">&times;</span>
+            <h3>A Verdade sobre a Liderança</h3>
+            <p><strong>Verdade:</strong> O verdadeiro fundador e líder do grupo foi o escritor francês <strong>André Breton</strong>, autor do Manifesto Surrealista de 1924. Dalí só entrou no grupo anos mais tarde (em 1929) e foi inclusive <strong>expulso</strong> por Breton devido a divergências políticas e comerciais.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
